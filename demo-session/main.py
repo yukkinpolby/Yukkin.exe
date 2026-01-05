@@ -1,0 +1,6 @@
+weapon_damage=10
+player_health=100
+armor_multiplier=2
+armored_health=player_health*armor_multiplier
+end_health=armored_health-weapon_damage
+print(end_health)
